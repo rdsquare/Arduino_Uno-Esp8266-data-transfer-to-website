@@ -8,9 +8,15 @@ Now, Build and Upload the given arduino code to your arduino uno using arduino I
 
 
 Pin Connection:
+
  ESP8266                Arduino Uno
+ 
  RX                       6
+ 
  TX                       7
+ 
  EN                       3.3V
+ 
  3V3                      3.3V
+ 
  Gnd                      Gnd
