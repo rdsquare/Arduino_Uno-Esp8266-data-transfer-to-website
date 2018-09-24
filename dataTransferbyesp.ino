@@ -1,10 +1,10 @@
 #include "SoftwareSerial.h"
-String ssid="JKLU"; // wifi name change to yours
-String password="wifi@jklu21"; // wifi password change to yours
+String ssid="YOUR_WIFI_SSID"; // wifi name change to yours
+String password="YOUR_WIFI_PASSWORD"; // wifi password change to yours
 SoftwareSerial esp(6,7); // esp(RX_pin, TX_pin) you can change it
 String data;
 String server = "feathery-glues.000webhostapp.com"; //Change to whatever your website name is
-String uri="/esp8266.php"; // Change scipt to yours
+String uri="/esp8266.php"; // Change scipt to yours 
 String nam, rollno;
 
 void setup() {
